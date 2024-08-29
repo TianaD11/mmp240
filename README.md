@@ -1,2 +1,2 @@
 # MMP 240
-Course template
+https://tianad11.github.io/mmp240/
