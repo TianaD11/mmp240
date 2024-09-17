@@ -1,5 +1,6 @@
-@import url(file:///Users/tianadouze/Desktop/MMP%20240/mmp240/recipe.html);
-@import url(file:///Users/tianadouze/Desktop/MMP%20240/mmp240/recipe.html);
+@import url(
+
+);
 body{ 
     background-color: aqua;
     width: 75%;
@@ -7,5 +8,11 @@ body{
     font-family: "lato"; 
     font-weight: 400;
     font-style: normal;
+    line-height: 1.3em;
+    
+}
+body{ 
+    display: block;
+    margin: 8px;
 
 }
