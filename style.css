@@ -1,6 +1,18 @@
-@import url(
-    https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css
-);
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body{ 
+    font-family: source sans pro, sans-serif;
+    font-size: 1em;
+    line-height: 1.6em;
+    width: 75%;
+    color: aliceblue;
+}
+
+h1,h2,h3,h4{
+    font-family: fredoka one, cursive;
+    color:aliceblue
+}
+
+
 body{ 
     background-color: orange;
     width: 75%;
