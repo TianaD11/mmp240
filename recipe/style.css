@@ -1,0 +1,18 @@
+@import url(
+    https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css
+);
+body{ 
+    background-color: orange;
+    width: 75%;
+    padding-left: 24px;
+    font-family: "lato"; 
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3em;
+    
+}
+body{ 
+    display: block;
+    margin: 8px;
+
+}
