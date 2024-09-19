@@ -25,14 +25,14 @@ h1,h2,h3,h4{
 
 li{
     font-size: 0.75rem;
+    margin-bottom: 1em
 
 }
+
 img{
     border: solid 5px white;
     border-radius:50px ;
     max-width:  100%; ;
 }
 
-li{
-    margin-bottom: 1em
-}
+
