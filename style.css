@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{ 
+    background-color: orange;
+    width: 75%;
+    font-family: "lato", sans-serif;
+    padding-left: 24px;
+    font-weight: 400;
+    font-style: normal;
+    margin:8px ;
+    font-size: 1rem;
+    color: aliceblue;
+    display: block;
+    margin: 8px;
+    border: solid 10px;
+}
+
+h1,h2,h3,h4{
+    font-family: fredoka one, cursive;
+    color:aliceblue
+    font-weight 400px;
+    font-style: normal
+
+}
+
+li{
+    font-size: 0.75rem;
+    margin-bottom: 1em
+
+}
+
+img{
+    border: solid 5px white;
+    border-radius:50px ;
+    max-width:  100%; ;
+}
+
