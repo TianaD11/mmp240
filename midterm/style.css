@@ -9,5 +9,11 @@ background-postion;right
 }
 
 img#logo{
-width: 30%;
+width: 25%;
+}
+
+p{
+    color:black;
+    width: 25%;
+    margin-left: 20px;
 }
