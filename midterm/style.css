@@ -3,5 +3,8 @@ background-color: aliceblue;
 background-image: url(images/Friends2.jpg);
 background-repeat:no-repeat;
 background-size: 70%
-
+background-postion;right
+}
+img{
+width: 300px;
 }
