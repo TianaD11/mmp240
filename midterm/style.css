@@ -1,9 +1,11 @@
 header { 
-background-color: aliceblue;
+background-color: purple;
 background-image: url(images/Friends2.jpg);
 background-repeat:no-repeat;
 background-size: 70%
-background-postion; right
+background-postion;right
+
+
 }
 
 img#logo{
