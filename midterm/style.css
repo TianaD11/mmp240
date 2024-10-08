@@ -1,9 +1,18 @@
 header { 
-background-color: purple;
+    padding: 3em 2em;
+    /*padding-top: 3em
+    padding-bottom:3em
+    padding-left:2em;*/
+    background:    
+    url(images/Friends2.jpg); no-repeat:top right/70%;
+    color: black;
+
+
+/*background-color: purple;
 background-image: url(images/Friends2.jpg);
 background-repeat:no-repeat;
 background-size: 70%
-background-postion;right
+background-postion: top right: ; */
 
 
 }
