@@ -1,12 +1,12 @@
-header { 
-    padding: 3em 2em;
-
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+.header-content { 
+    display: flex;
     /*padding-top: 3em
     padding-bottom:3em
     padding-left:2em;*/
-    background:    
-    linear-gradient()
-    url("images/Friends2.jpg"); mask-repeat:top right/70%;
     color: black;
 
 
@@ -17,6 +17,29 @@ background-size: 70%
 background-postion: top right: ; */
 
 
+}
+
+.header-content-bg-1 {
+    position: relative;
+    width: 50%;
+    height: 25vw;
+    background:
+        url("images/friends_logo.jpg"),
+        black;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.header-content-bg-2 {
+    position:relative;
+    width: 50%;
+    height: 25vw;
+    background: 
+        linear-gradient(to left, rgba(52, 52, 52, 0) 90%, rgb(0, 0, 0) 100%), 
+        url("images/Unknown.jpg") no-repeat left top;
+    background-size: cover;
+    size: 100% 100%;    
 }
 
 img#logo{
