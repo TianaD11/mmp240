@@ -45,9 +45,39 @@ background-postion: top right: ; */
 img#logo{
 width: 25%;
 }
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+   
+}
 
+#wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: black;
+    overflow: auto;
+}
+
+h2{
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+
+p,h2{
+    margin-bottom: 1em;
+}
+strong{
+    font-weight: bold;
+    color: white;
+}
 p{
-    color:black;
+    color:white;
     width: 25%;
     margin-left: 20px;
+}
+.play{
+    padding: left 25px; ;
+    background-image:url(images/play_arrow.png)no-repeat ;
+    background-repeat:no-repeat ;
+    background-position: left-corner;
 }
