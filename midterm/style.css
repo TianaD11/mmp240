@@ -146,8 +146,55 @@ background-color: #111;
     width: 100vw;
 }
 
+#friends_subtitle {
+    color: white;
+    margin: 1% 4% 0 4%;
+    font-size: medium;
+    width: 100vw;
+}
+
 #friends_subheader {
     margin: 2%;
+}
+
+.episode_subtitle {
+    font-size: large;
+    margin: 4%;
+}
+
+.episode_description {
+    font-size: medium;
+    margin: 4%;
+    padding: auto;
+    color: black;
+}
+
+.episode_box {
+    width: 90%;
+    height: 30%;
+    background-color: rgb(194, 194, 194);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 1% auto 2% auto;
+}
+
+.flex_wrapper {
+    margin: 2% 4% 4% 4%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.child_flex_box {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    width: 30vw;
+    height: 20vw;
 }
 
 .col{
