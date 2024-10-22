@@ -4,6 +4,7 @@
 }
 .header-content { 
     display: flex;
+    margin: 0 auto;
     /*padding-top: 3em
     padding-bottom:3em
     padding-left:2em;*/
@@ -28,7 +29,8 @@ background-postion: top right: ; */
         black;
     background-size: contain;
     background-repeat: no-repeat;
-
+    margin: 0;
+    padding: 0;
 }
 
 .header-content-bg-2 {
@@ -39,12 +41,11 @@ background-postion: top right: ; */
         linear-gradient(to left, rgba(52, 52, 52, 0) 90%, rgb(0, 0, 0) 100%), 
         url("images/Unknown.jpg") no-repeat left top;
     background-size: cover;
-    size: 100% 100%;    
+    size: 100% 100%;
+    margin: 0;
+    padding: 0;
 }
 
-img#logo{
-width: 25%;
-}
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
@@ -73,11 +74,106 @@ strong{
 p{
     color:white;
     width: 25%;
-    margin-left: 20px;
 }
 .play{
     padding: left 25px; ;
     background-image:url(images/play_arrow.png)no-repeat ;
     background-repeat:no-repeat ;
     background-position: left-corner;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navbar li a:hover {
+background-color: #111;
+}
+
+.button {
+	position: relative;
+	font-family: inherit;
+	display: flex;
+	gap: 1.05rem;
+	cursor: pointer;
+	border-radius: 3rem;
+	padding: 0.9rem 3.2rem;
+	background-color: #3a393b;
+	color: #fff;
+	border: none;
+	align-items: center;
+	font-weight: 600;
+	width: 10%;
+	justify-content: center;
+}
+
+.arrow {
+	position: relative;
+	cursor: pointer;
+	width: 0;
+	height: 0;
+	border-top: 0.5rem solid transparent;
+	border-bottom: 0.5rem solid transparent;
+	border-left: 0.9rem solid #fff;
+}
+
+.play_wrapper {
+    /* clockwise: [up, right, bottom, left]*/
+    margin: 0 2% 5% 2%;
+}
+
+#friends_title {
+    color: white;
+    margin: 4% 4% 0 4%;
+    font-size: xx-large;
+    width: 100vw;
+}
+
+#friends_subheader {
+    margin: 2%;
+}
+
+.col{
+    margin: 2% 4% 4% 4%;
+    width: 40vw;
+    float: left;
+    min-width: 300px;
+}
+
+.col p{
+    width: 100%;
+    font-size: large;
+    line-height: 120%;
+}
+
+#footer {
+    display: block;
+    color: white;
+    float: left;
+    height: 15%;
+    width: 100%;
+    margin: 1% 4% 1% 4%;
+}
+
+#main_container {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
 }
