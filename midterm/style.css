@@ -71,16 +71,12 @@ strong{
     font-weight: bold;
     color: white;
 }
+
 p{
     color:white;
     width: 25%;
 }
-.play{
-    padding: left 25px; ;
-    background-image:url(images/play_arrow.png)no-repeat ;
-    background-repeat:no-repeat ;
-    background-position: left-corner;
-}
+
 
 ul {
     list-style-type: none;
