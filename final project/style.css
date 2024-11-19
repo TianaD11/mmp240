@@ -14,7 +14,7 @@ nav.dropdown a{
 }
 
 nav .dropdown a:hover{
-    background-color: gray;
+    background-color: pink;
     color: pink;
 }
 
