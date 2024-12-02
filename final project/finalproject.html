@@ -13,66 +13,90 @@
 <body>
     <div id="wrapper">
         <header>
-            <h1>Design @ CUNY</h1>
-            <img src="images/menu.svg" alt="menu" class="menu">
-            <nav id="topMenu">
+            <nav class="top_nav" id="topMenu">
+                <h1 class="top_nav_title">Design @ CUNY</h1>
                 <ul>
-
+                    <li><input type="text" placeholder="Search.." /></li>
                     <li><a href="https://www.cuny.edu/about/">About CUNY</a></li>
                     <li><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
                     <li><a href="https://www.cuny.edu/admissions/">Admissions</a></li>
                 </ul>
-
-                <form action="#" class="search">
-                    <input type="search">
-                    <input type="submit" value="search">
-                </form>
             </nav>
 
         </header>
-        <div class="searchprograms">
-            <h2></h2>
-            <p></p>
-            
-            <nav class="program_nav">
-                <ul class="toplist">
-                    <li>
-                        <a href="#">Degree</a>
-                        <ul class="dropdown">
-                            <li><a href="associate.html">Associate</a></li>
-                            <li><a href="bachelors.html">Bachelors</a></li>
-                        </ul>
-                    </li>
-            
-                
-                    <li>
-                        <a href="#">Discipline</a>
-                        <ul class="dropdown">
-                            <li><a href="digital-design.html">Digital Design</a></li>
-                            <li><a href="animation.html">Animation</a></li>
-                            <li><a href="industrial-design.html">Industrial Design</a></li>
-                        </ul>
-                    </li>
 
-                    <li>
-                        <a href="#">Borough</a>
-                        <ul class="dropdown">
-                            <li><a href="brooklyn.html">Brooklyn</a></li>
-                            <li><a href="bronx.html">Bronx</a></li>
-                            <li><a href="manhattan.html">Manhattan</a></li>
-                            <li><a href="queens.html">Queens</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
+        <div class="searchprograms">
+            <div class="program_container">
+                <h1 class="program_find_a_design">Find a Design Program</h1>
+                <h4 class="program_nav_search_by_text">Search By:</h4>
+                <nav class="program_nav">
+                    <ul class="toplist">
+                        <li class="program_nav_list">
+                            <a href="#">Degree</a>
+                            <ul class="dropdown">
+                                <li><a href="associate.html">Associate</a></li>
+                                <li><a href="bachelors.html">Bachelors</a></li>
+                            </ul>
+                        </li>
+                
+                    
+                        <li class="program_nav_list">
+                            <a href="#">Discipline</a>
+                            <ul class="dropdown">
+                                <li><a href="digital-design.html">Digital Design</a></li>
+                                <li><a href="animation.html">Animation</a></li>
+                                <li><a href="industrial-design.html">Industrial Design</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="program_nav_list">
+                            <a href="#">Borough</a>
+                            <ul class="dropdown">
+                                <li><a href="brooklyn.html">Brooklyn</a></li>
+                                <li><a href="bronx.html">Bronx</a></li>
+                                <li><a href="manhattan.html">Manhattan</a></li>
+                                <li><a href="queens.html">Queens</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
 
-
-
-        <div class="searchprograms"></div>
         <div class="banner"></div>
-        <main class="home"></main>
-        <footer>Copyright 2020 The City University of New York</footer>
+
+        <div class="container">
+            <div class="design-news">
+                <h1>Design News</h1>
+    
+                <div class="news-item">
+                    <h2>CUNY TV Wins 21st New York Emmy Award For Animated Opening Sequence of ‘Shades of U.S.’</h2>
+                    <div class="date">April 27, 2020</div>
+                    <p>The City University of New York won two awards in the 63rd New York Emmy Awards, as CUNY TV and the New York City College of Technology each earned honors in Saturday’s ceremony. The award for CUNY TV brings to 21 the total number of Emmys the station has been awarded by the National Academy of Television Arts & Sciences New York Chapter.</p>
+                    <a href="#">Read More</a>
+                </div>
+    
+                <div class="news-item">
+                    <h2>CUNY Expands Digital Skills Curriculum and Creates Student Pipeline for Tech Jobs</h2>
+                    <div class="date">October 28, 2019</div>
+                    <p>The City University of New York has significantly expanded its digital skills curriculum as part of a broad-based effort to produce a steady pipeline of diverse, adaptable, critical thinkers who can thrive in a workplace environment that is increasingly reliant on advanced digital technologies across most sectors of the economy. Another aim of this initiative is to encourage traditionally underrepresented groups to take up tech-focused areas of study.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+    
+            <div class="events">
+                <h1>Events</h1>
+                <img src="digital-showcase-day.jpg" alt="Digital Showcase Day 2020 Poster">
+                <div class="event-details">
+                    <h2>Virtual Digital Design Showcase Day</h2>
+                    <p><strong>Date:</strong> June 18, 2020</p>
+                    <p><strong>Time:</strong> 2:00 PM — 4:00 PM</p>
+                    <p><strong>College:</strong> Bronx Community College</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">Copyright 2020 The City University of New York</footer>
     </div>
 </body>
 
