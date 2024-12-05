@@ -320,7 +320,7 @@ body{
     text-transform: uppercase;
     display:block;
     padding: 10px;
-    background-color: aquamarine;
+    background-color: pink;
 }
 
 .program_nav.dropdown a{
@@ -329,7 +329,7 @@ body{
 }
 
 .program_nav .dropdown a:hover{
-    background-color: darkgreen;
+    background-color:purple;
     color: white;
 }
 
@@ -378,6 +378,9 @@ display: block;
 .porgramCards a{
     text-decoration: none;
     display: block;
+    border: solid 1px;
+    border-radius: 10px;
+    transition-property: box-shawdow, transform;
 }
 
 .card body{
