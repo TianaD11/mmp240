@@ -9,6 +9,7 @@
       .colorboxes{
         margin:100px;
         width:500px;
+        position: relative;
       }
       .box{
         padding:50px;
@@ -17,9 +18,13 @@
       }
       .redbox{
         background-color:red;
+        position: relative;
       }
       .bluebox{
         background-color:blue;
+        position: absolute;
+        top: 0;
+        z-index: 1; 
       }
       .greenbox{
         background-color:green;
