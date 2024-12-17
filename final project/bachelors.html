@@ -5,65 +5,150 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design@CUNY</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_drop_down">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_drop_down">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <script src="showmenu.js"></script>
 </head>
 
 <body>
-    <div id="wrapper">
-        <header>
-            <nav class="top_nav" id="topMenu">
-                <h1 class="top_button_nav"><a href="index.html">Design @ CUNY</a></h1>
-                <ul>
-                    <li>
-                        <a href="javascript:void(0);" class="icon" onclick="showMenu();">
-                            <img src="images/menu.svg" alt="menu">
-                        </a>
+    <header>
+        <nav class="top_nav" id="topMenu">
+            <h1 class="top_button_nav"><a href="index.html">Design @ CUNY</a></h1>
+            <ul>
+                <li>
+                    <a href="javascript:void(0);" class="icon" onclick="showMenu();">
+                        <img class="hb_img" src="images/menu.svg" alt="menu">
+                    </a>
+                </li>
+                <li><input type="text" placeholder="Search.."></li>
+                <li class="nav_link"><a href="https://www.cuny.edu/about/">About CUNY</a></li>
+                <li class="nav_link"><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
+                <li class="nav_link"><a href="https://www.cuny.edu/admissions/apply-to-cuny/">Admissions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="searchprograms">
+        <div class="program_container">
+            <h2 class="program_find_a_design">Find a Design Program</h2>
+            <h3 class="program_nav_search_by_text">Search By:</h3>
+            <nav class="program_nav">
+                <ul class="toplist">
+                    <li class="program_nav_list">
+                        <a href="#">Degree</a>
+                        <ul class="dropdown">
+                            <li><a href="associate.html">Associate</a></li>
+                            <li><a href="bachelors.html">Bachelors</a></li>
+                        </ul>
                     </li>
-                    <li><input type="text" placeholder="Search.." /></li>
-                    <li class="nav_link"><a href="https://www.cuny.edu/about/">About CUNY</a></li>
-                    <li class="nav_link"><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
-                    <li class="nav_link"><a href="https://www.cuny.edu/admissions/apply-to-cuny/">Admissions</a></li>
+
+                    <li class="program_nav_list">
+                        <a href="#">Discipline</a>
+                        <ul class="dropdown">
+                            <li><a href="digital-design.html">Digital Design</a></li>
+                            <li><a href="animation.html">Animation</a></li>
+                            <li><a href="industrial-design.html">Industrial Design</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="program_nav_list">
+                        <a href="#">Borough</a>
+                        <ul class="dropdown">
+                            <li><a href="brooklyn.html">Brooklyn</a></li>
+                            <li><a href="bronx.html">Bronx</a></li>
+                            <li><a href="manhattan.html">Manhattan</a></li>
+                            <li><a href="queens.html">Queens</a></li>
+                        </ul>
+                    </li>
+
                 </ul>
             </nav>
-        </header>
-
-        <div class="searchprograms">
-            <div class="program_container">
-                <h2 class="program_find_a_design">Find a Design Program</h2>
-                <h3 class="program_nav_search_by_text">Search By:</h3>
-                <nav class="program_nav">
-                    <ul class="toplist">
-                        <li class="program_nav_list">
-                            <a href="#">Degree</a>
-                            <ul class="dropdown">
-                                <li><a href="associate.html">Associate</a></li>
-                                <li><a href="bachelors.html">Bachelors</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="program_nav_list">
-                            <a href="#">Discipline</a>
-                            <ul class="dropdown">
-                                <li><a href="digital-design.html">Digital Design</a></li>
-                                <li><a href="animation.html">Animation</a></li>
-                                <li><a href="industrial-design.html">Industrial Design</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="program_nav_list">
-                            <a href="#">Borough</a>
-                            <ul class="dropdown">
-                                <li><a href="brooklyn.html">Brooklyn</a></li>
-                                <li><a href="bronx.html">Bronx</a></li>
-                                <li><a href="manhattan.html">Manhattan</a></li>
-                                <li><a href="queens.html">Queens</a></li>
-                            </ul>
-                        </li>
-
-                    </ul>
-                </nav>
-            </div>
         </div>
+    </div>
+    <div class="flex_wrapper">
+
+        <a class="subject_box_link" href="#">
+            <div class="child_flex_box">
+                <div class="subject_box">
+                    <img class="subject_box_image" src="images/city2.png" alt="New York City College Of Technology BFA">
+                </div>
+                <h5 class="subject_subtitle">New York City College Of Technology</h5>
+                <h5 class="subject_subtitle">Communication Design (B.F.A.)</h5>
+                <p class="subject_description">The BFA degree develops students' abilities to frame, research and solve
+                    increasingly complex visual communication problems. Students develop a professional portfolio that
+                    prepares them for employment as art directors, graphic designers, illustrators and web designers.
+                </p>
+            </div>
+        </a>
+
+        <a class="subject_box_link" href="#">
+            <div class="child_flex_box">
+                <div class="subject_box">
+                    <img class="subject_box_image" src="images/queens_college.jpg" alt="Queens College Design">
+                </div>
+                <h5 class="subject_subtitle">Queens College</h5>
+                <h5 class="subject_subtitle">Design (B.F.A.)</h5>
+                <p class="subject_description">Queens College’s Design program combines knowledgeable faculty with
+                    industry standard software and the creativity of a studio-based learning environment. Students
+                    choose one of three concentrations: Communication Design, Animation & Illustration or Interaction
+                    Design.</p>
+            </div>
+        </a>
+
+        <a class="subject_box_link" href="#">
+            <div class="child_flex_box">
+                <div class="subject_box">
+                    <img class="subject_box_image" src="images/ccny.jpg"
+                        alt="City College of New York Electronic Design">
+                </div>
+                <h5 class="subject_subtitle">The City College of New York</h5>
+                <h5 class="subject_subtitle">Electronic Design and Multimedia (B.F.A.)</h5>
+                <p class="subject_description">The Electronic Design & Multimedia program prepares students for careers
+                    in design in traditional print and emerging electronic media. It offers one of the most
+                    comprehensive, affordable 4-year programs in electronic art at a New York City public university,
+                    and has an 18-year record of alumni success.</p>
+            </div>
+        </a>
+
+        <a class="subject_box_link" href="#">
+            <div class="child_flex_box">
+                <div class="subject_box">
+                    <img class="subject_box_image" src="images/york1.jpeg" alt="York College Communications Technology">
+                </div>
+                <h5 class="subject_subtitle">York College</h5>
+                <h5 class="subject_subtitle">Communications Technology (B.S.)</h5>
+                <p class="subject_description">An interdisciplinary program that brings together television, web,
+                    information systems, computer science, and design. The program offers three main concentrations:
+                    digital video, computer graphics, and systems and applications.</p>
+            </div>
+        </a>
+
+        <a class="subject_box_link" href="#">
+            <div class="child_flex_box">
+                <div class="subject_box">
+                    <img class="subject_box_image" src="images/leh.jpeg"
+                        alt="Lehman College Computer Graphics and Imaging">
+                </div>
+                <h5 class="subject_subtitle">Lehman College</h5>
+                <h5 class="subject_subtitle">Computer Graphics and Imaging (B.S.)</h5>
+                <p class="subject_description">The Computer Graphics and Imaging program offers courses covering web
+                    design, imaging, 3-D modeling, animation, interactivity, and broadcast design, preparing students
+                    for careers as well as graduate study in these fields.</p>
+            </div>
+        </a>
+
+        <a class="subject_box_link" href="#">
+            <div class="child_flex_box">
+                <div class="subject_box">
+                    <img class="subject_box_image" src="images/baruch.jpeg" alt="Baruch College Graphic Communication">
+                </div>
+                <h5 class="subject_subtitle">Baruch College</h5>
+                <h5 class="subject_subtitle">Graphic Communication (B.A.)</h5>
+                <p class="subject_description">The graphic communication specialization provides training in graphics as
+                    well as basic training in the broader aspects of business communication. It prepares the graphic
+                    artist to enter a business environment.</p>
+            </div>
+        </a>
+    </div>

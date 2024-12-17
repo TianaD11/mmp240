@@ -5,65 +5,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design@CUNY</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_drop_down">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_drop_down">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <script src="showmenu.js"></script>
 </head>
 
 <body>
-    <div id="wrapper">
-        <header>
-            <nav class="top_nav" id="topMenu">
-                <h1 class="top_button_nav"><a href="index.html">Design @ CUNY</a></h1>
-                <ul>
-                    <li>
-                        <a href="javascript:void(0);" class="icon" onclick="showMenu();">
-                            <img src="images/menu.svg" alt="menu">
-                        </a>
+    <header>
+        <nav class="top_nav" id="topMenu">
+            <h1 class="top_button_nav"><a href="index.html">Design @ CUNY</a></h1>
+            <ul>
+                <li>
+                    <a href="javascript:void(0);" class="icon" onclick="showMenu();">
+                        <img class="hb_img" src="images/menu.svg" alt="menu">
+                    </a>
+                </li>
+                <li><input type="text" placeholder="Search.."></li>
+                <li class="nav_link"><a href="https://www.cuny.edu/about/">About CUNY</a></li>
+                <li class="nav_link"><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
+                <li class="nav_link"><a href="https://www.cuny.edu/admissions/apply-to-cuny/">Admissions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="searchprograms">
+        <div class="program_container">
+            <h2 class="program_find_a_design">Find a Design Program</h2>
+            <h3 class="program_nav_search_by_text">Search By:</h3>
+            <nav class="program_nav">
+                <ul class="toplist">
+                    <li class="program_nav_list">
+                        <a href="#">Degree</a>
+                        <ul class="dropdown">
+                            <li><a href="associate.html">Associate</a></li>
+                            <li><a href="bachelors.html">Bachelors</a></li>
+                        </ul>
                     </li>
-                    <li><input type="text" placeholder="Search.." /></li>
-                    <li class="nav_link"><a href="https://www.cuny.edu/about/">About CUNY</a></li>
-                    <li class="nav_link"><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
-                    <li class="nav_link"><a href="https://www.cuny.edu/admissions/apply-to-cuny/">Admissions</a></li>
+
+                    <li class="program_nav_list">
+                        <a href="#">Discipline</a>
+                        <ul class="dropdown">
+                            <li><a href="digital-design.html">Digital Design</a></li>
+                            <li><a href="animation.html">Animation</a></li>
+                            <li><a href="industrial-design.html">Industrial Design</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="program_nav_list">
+                        <a href="#">Borough</a>
+                        <ul class="dropdown">
+                            <li><a href="brooklyn.html">Brooklyn</a></li>
+                            <li><a href="bronx.html">Bronx</a></li>
+                            <li><a href="manhattan.html">Manhattan</a></li>
+                            <li><a href="queens.html">Queens</a></li>
+                        </ul>
+                    </li>
+
                 </ul>
             </nav>
-        </header>
-
-        <div class="searchprograms">
-            <div class="program_container">
-                <h2 class="program_find_a_design">Find a Design Program</h2>
-                <h3 class="program_nav_search_by_text">Search By:</h3>
-                <nav class="program_nav">
-                    <ul class="toplist">
-                        <li class="program_nav_list">
-                            <a href="#">Degree</a>
-                            <ul class="dropdown">
-                                <li><a href="associate.html">Associate</a></li>
-                                <li><a href="bachelors.html">Bachelors</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="program_nav_list">
-                            <a href="#">Discipline</a>
-                            <ul class="dropdown">
-                                <li><a href="digital-design.html">Digital Design</a></li>
-                                <li><a href="animation.html">Animation</a></li>
-                                <li><a href="industrial-design.html">Industrial Design</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="program_nav_list">
-                            <a href="#">Borough</a>
-                            <ul class="dropdown">
-                                <li><a href="brooklyn.html">Brooklyn</a></li>
-                                <li><a href="bronx.html">Bronx</a></li>
-                                <li><a href="manhattan.html">Manhattan</a></li>
-                                <li><a href="queens.html">Queens</a></li>
-                            </ul>
-                        </li>
-
-                    </ul>
-                </nav>
-            </div>
         </div>
+    </div>
+
+    <div class="flex_wrapper">
+        <a class="subject_box_link"
+            href="http://www.bcc.cuny.edu/academics/academic-departments/art-and-music-department/degree-and-certificate-programs-courses/digital-design/">
+            <div class="child_flex_box">
+                <div class="subject_box">
+                    <img class="subject_box_image" src="images/bronx.jpg" alt="#">
+                </div>
+                <h5 class="subject_subtitle">Bronx Community College</h5>
+                <h5 class="subject_subtitle">Digital Design</h5>
+                <p class="subject_description">This program prepares students for careers in the visual communication
+                    industry in positions such as graphic design, web design, computer animation, 3D graphic
+                    visualization, motion graphics design, and interactive multimedia design.</p>
+            </div>
+        </a>
+        <a class="subject_box_link" href="https://www.hostos.cuny.edu/www-hostosdesign-com">
+            <div class="child_flex_box">
+                <div class="subject_box">
+                    <img class="subject_box_image" src="images/hostos.jpeg" alt="#">
+                </div>
+                <h5 class="subject_subtitle">Hostos Community College</h5>
+                <h5 class="subject_subtitle">Digital Design & Animation</h5>
+                <p class="subject_description">Through lectures and studio-based classes, the Digital Design and
+                    Animation Program provides students with a strong foundation for future occupations in motion
+                    graphics, animation, graphic design, and/or web design.</p>
+            </div>
+        </a>
+
+        <a class="subject_box_link"
+            href="https://www.hostos.cuny.edu/Administrative-Offices/Office-of-Academic-Affairs/Departments/Humanities/Programs/Game-Design-(1)">
+            <div class="child_flex_box">
+                <div class="subject_box">
+                    <img class="subject_box_image" src="images/hostos3.jpeg" alt="#">
+                </div>
+                <h5 class="subject_subtitle">Hostos Community College</h5>
+                <h5 class="subject_subtitle">Game Design</h5>
+                <p class="subject_description">The Associate degree in Game Design will provide students with a strong
+                    foundation for future occupations in the entertainment software industry. It will provide students
+                    with additional career opportunities in the field of entertainment software publishing.</p>
+            </div>
+        </a>
+        <a class="subject_box_link" href="#">
+            <div class="child_flex_box">
+                <div class="subject_box">
+                    <img class="subject_box_image" src="images/leh.jpeg"
+                        alt="Lehman College Computer Graphics and Imaging">
+                </div>
+                <h5 class="subject_subtitle">Lehman College</h5>
+                <h5 class="subject_subtitle">Computer Graphics and Imaging (B.S.)</h5>
+                <p class="subject_description">The Computer Graphics and Imaging program offers courses covering web
+                    design, imaging, 3-D modeling, animation, interactivity, and broadcast design, preparing students
+                    for careers as well as graduate study in these fields.</p>
+            </div>
+        </a>
+    </div>

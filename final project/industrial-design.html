@@ -5,65 +5,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design@CUNY</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_drop_down">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_drop_down">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <script src="showmenu.js"></script>
 </head>
 
 <body>
-    <div id="wrapper">
-        <header>
-            <nav class="top_nav" id="topMenu">
-                <h1 class="top_button_nav"><a href="index.html">Design @ CUNY</a></h1>
-                <ul>
-                    <li>
-                        <a href="javascript:void(0);" class="icon" onclick="showMenu();">
-                            <img src="images/menu.svg" alt="menu">
-                        </a>
+    <header>
+        <nav class="top_nav" id="topMenu">
+            <h1 class="top_button_nav"><a href="index.html">Design @ CUNY</a></h1>
+            <ul>
+                <li>
+                    <a href="javascript:void(0);" class="icon" onclick="showMenu();">
+                        <img class="hb_img" src="images/menu.svg" alt="menu">
+                    </a>
+                </li>
+                <li><input type="text" placeholder="Search.."></li>
+                <li class="nav_link"><a href="https://www.cuny.edu/about/">About CUNY</a></li>
+                <li class="nav_link"><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
+                <li class="nav_link"><a href="https://www.cuny.edu/admissions/apply-to-cuny/">Admissions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="searchprograms">
+        <div class="program_container">
+            <h2 class="program_find_a_design">Find a Design Program</h2>
+            <h3 class="program_nav_search_by_text">Search By:</h3>
+            <nav class="program_nav">
+                <ul class="toplist">
+                    <li class="program_nav_list">
+                        <a href="#">Degree</a>
+                        <ul class="dropdown">
+                            <li><a href="associate.html">Associate</a></li>
+                            <li><a href="bachelors.html">Bachelors</a></li>
+                        </ul>
                     </li>
-                    <li><input type="text" placeholder="Search.." /></li>
-                    <li class="nav_link"><a href="https://www.cuny.edu/about/">About CUNY</a></li>
-                    <li class="nav_link"><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
-                    <li class="nav_link"><a href="https://www.cuny.edu/admissions/apply-to-cuny/">Admissions</a></li>
+
+                    <li class="program_nav_list">
+                        <a href="#">Discipline</a>
+                        <ul class="dropdown">
+                            <li><a href="digital-design.html">Digital Design</a></li>
+                            <li><a href="animation.html">Animation</a></li>
+                            <li><a href="industrial-design.html">Industrial Design</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="program_nav_list">
+                        <a href="#">Borough</a>
+                        <ul class="dropdown">
+                            <li><a href="brooklyn.html">Brooklyn</a></li>
+                            <li><a href="bronx.html">Bronx</a></li>
+                            <li><a href="manhattan.html">Manhattan</a></li>
+                            <li><a href="queens.html">Queens</a></li>
+                        </ul>
+                    </li>
+
                 </ul>
             </nav>
-        </header>
-
-        <div class="searchprograms">
-            <div class="program_container">
-                <h2 class="program_find_a_design">Find a Design Program</h2>
-                <h3 class="program_nav_search_by_text">Search By:</h3>
-                <nav class="program_nav">
-                    <ul class="toplist">
-                        <li class="program_nav_list">
-                            <a href="#">Degree</a>
-                            <ul class="dropdown">
-                                <li><a href="associate.html">Associate</a></li>
-                                <li><a href="bachelors.html">Bachelors</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="program_nav_list">
-                            <a href="#">Discipline</a>
-                            <ul class="dropdown">
-                                <li><a href="digital-design.html">Digital Design</a></li>
-                                <li><a href="animation.html">Animation</a></li>
-                                <li><a href="industrial-design.html">Industrial Design</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="program_nav_list">
-                            <a href="#">Borough</a>
-                            <ul class="dropdown">
-                                <li><a href="brooklyn.html">Brooklyn</a></li>
-                                <li><a href="bronx.html">Bronx</a></li>
-                                <li><a href="manhattan.html">Manhattan</a></li>
-                                <li><a href="queens.html">Queens</a></li>
-                            </ul>
-                        </li>
-
-                    </ul>
-                </nav>
-            </div>
         </div>
+    </div>
+
+    <div class="flex_wrapper">
+
+        <a class="subject_box_link" href="http://www.citytech.cuny.edu/mechanical/industrial-technology-aas.aspx">
+            <div class="child_flex_box">
+                <div class="subject_box">
+                    <img class="subject_box_image" src="images/city1.jpeg" alt="#">
+                </div>
+                <h5 class="subject_subtitle">New York City College Of Technology</h5>
+                <h5 class="subject_subtitle">Industrial Design Technology</h5>
+                <p class="subject_description">The Industrial Design Technology (IND) program is designed to provide
+                    students with a wide variety of skills enabling them to utilize a number of 2D, 3D and
+                    animation/simulation software packages in several diverse fields.</p>
+            </div>
+        </a>
+
+        <a class="subject_box_link" href="https://www.laguardia.edu/majors/industrial-design/">
+            <div class="child_flex_box">
+                <div class="subject_box">
+                    <img class="subject_box_image" src="images/lag1.jpeg" alt="#">
+                </div>
+                <h5 class="subject_subtitle">LaGuardia Community College</h5>
+                <h5 class="subject_subtitle">Industrial Design</h5>
+                <p class="subject_description">The Industrial Design program provides students a foundation experience
+                    in the necessary skills to begin a career in Computer Assisted Design (CAD), Model making, Product
+                    Design and Fabrication or transfer to a four-year institution.</p>
+            </div>
+        </a>
+
+    </div>
