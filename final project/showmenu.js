@@ -1,8 +1,12 @@
 function showMenu(){
-    var menu = document.getElementById("topMenu");
-    if (menu.style.display ==="none" || menu.style.display ===""){
-         menu.style.display = "block";
-    } else {
-        menu.style.display = "none";
+    var menus = document.getElementsByClassName("nav_link");
+    for(var i = 0; i < menus.length; i++) {
+        if(menus[i]) {
+            if (menus[i].style.display === "none" || menus[i].style.display === ""){
+                menus[i].style.display = "block";
+            } else {
+                menus[i].style.display = "none";
+            }
+        }
     }
 }

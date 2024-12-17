@@ -8,22 +8,26 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_drop_down">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <script src="showmenu.js"></script>
 </head>
 
 <body>
     <div id="wrapper">
         <header>
             <nav class="top_nav" id="topMenu">
-
                 <h1 class="top_button_nav"><a href="index.html">Design @ CUNY</a></h1>
                 <ul>
+                    <li>
+                        <a href="javascript:void(0);" class="icon" onclick="showMenu();">
+                            <img src="images/menu.svg" alt="menu">
+                        </a>
+                    </li>
                     <li><input type="text" placeholder="Search.." /></li>
-                    <li><a href="https://www.cuny.edu/about/">About CUNY</a></li>
-                    <li><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
-                    <li><a href="https://www.cuny.edu/admissions/apply-to-cuny/">Admissions</a></li>
+                    <li class="nav_link"><a href="https://www.cuny.edu/about/">About CUNY</a></li>
+                    <li class="nav_link"><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
+                    <li class="nav_link"><a href="https://www.cuny.edu/admissions/apply-to-cuny/">Admissions</a></li>
                 </ul>
             </nav>
-
         </header>
 
         <div class="searchprograms">
